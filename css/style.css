@@ -1,0 +1,115 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	text-align: left;
+	list-style: none outside;
+	font-size: 100%;
+}
+html {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+body {
+	margin: 0;
+	padding: 0;
+	background: #ffffff;
+	color: #152D54;
+	height: 100%;
+}
+article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary{
+	display: block;
+}
+div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, p, table, th, td, em, img {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+th, td {
+	vertical-align: top;
+}
+a{
+	cursor: pointer;
+	text-decoration: none;
+}
+a:link { color: #152D54; }
+a:visited { color: #152D54; }
+a:hover {
+	color: #152D54;
+	text-decoration: none;
+}
+a:active { color: #152D54; }
+
+
+/****************header*********************/
+.navbar-inner{
+    padding: 0 15px;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+.navbar-header h1{
+	padding: 5px 0 0 0;
+}
+/****************container*********************/
+.container-inner{
+    padding: 0 15px;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+/****************profile*********************/
+#profile > h2{
+    padding: 20px 0 40px 15px;
+}
+.faceProfile img{
+    display: block;
+    margin: 0 auto;
+}
+.snsIcon{
+    padding: 15px 0 0 0;
+    text-align: center;
+}
+.myname{
+	padding: 20px 0;
+}
+.skillList{
+    padding: 0 20px;
+    background: #eff4fa;
+    overflow: hidden;
+}
+.skillList dt{
+	padding: 20px 0;
+}
+.skillList dd{
+    float: left;
+    padding: 0 0 15px 0;
+    width: 25%;
+}
+/****************works*********************/
+#works{
+	padding: 60px 0 0 0;
+}
+#works > h2{
+	padding: 0 0 20px;
+}
+.toriaezu{ /*remove later*/
+	float: left;
+	margin: 0 15px 0 0;
+	width:140px;
+	height:240px;
+	background:#e5e5e5;
+}
+/****************footer*********************/
+footer{
+	padding: 10px 0;
+	margin: 40px 0 0 0;
+	background: #e7e7e7;
+}
+footer-inner{
+	margin: 0 auto;
+	max-width: 1200px;
+	min-height:20px;
+}
+footer p{
+	text-align: center;
+}

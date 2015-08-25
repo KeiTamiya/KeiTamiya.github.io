@@ -4,12 +4,111 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap 101 Template</title>
+    <title>Portfolio</title>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
   </head>
   <body>
-    <h1>Hello, world!</h1>
-
+    <header>
+      <nav class="navbar navbar-default">
+        <div class="navbar-inner">
+          <div class="navbar-header">
+            <h1>
+              <a href="/">Portfolio</a>
+            </h1>
+          </div>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#profile">Profile</a></li>
+            <li><a href="#works">Works</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    
+    <div class="container-fluid">
+      <div class="container-inner">
+        <div id="profile" class="row">
+          <h2>Profile</h2>
+          <div class="col-md-2 col-lg-2">
+            <div class="faceProfile">
+              <img src="images/faceprofile_face.gif" width="180">
+            </div>
+            <ul class="snsIcon list-inline">
+              <li><a href="https://github.com/KeiTamiya" target="_blank"><img src="images/icon_github.png" width="40"></a></li>
+              <li><a href="https://twitter.com/k_tamiyan" target="_blank"><img src="images/icon_twitter.png" width="40"></a></li>
+            </ul>
+          </div>
+          <div class="col-md-6 col-lg-6">
+            <h3 class="myname">Kei Tamiya</h3>
+            <p>大学で建築・デザインを学ぶ中でWebデザインに興味を持つ。フロントエンドが得意で、現在RailsなどWebアプリ制作も勉強中。音楽が好きなためバンドのWebサイト制作をメインに活動中。</p>
+          </div>
+          <div class="col-md-4 col-lg-4">
+            <dl class="skillList">
+              <dt class="text-center">Skills</dt>
+              <dd><img src="images/icon_html5.png" width="64"></dd>
+              <dd><img src="images/icon_css3.png" width="64"></dd>
+              <dd><img src="images/icon_bootstrap.png" width="64"></dd>
+              <dd><img src="images/icon_ruby-rails.png" width="64"></dd>
+              <dd><img src="images/icon_jquery.png" width="64"></dd>
+              <dd><img src="images/icon_wordpress.png" width="64"></dd>
+              <dd><img src="images/icon_photoshop.png" width="64"></dd>
+              <dd><img src="images/icon_illustrator.png" width="64"></dd>
+            </dl>
+          </div>
+        </div><!--／profile-->
+        
+        <div id="works">
+          <h2>Works</h2>
+          <div class="row">
+            <div class="col-md-6 col-lg-6">
+              <div class="panel panel-default">
+                <div class="panel-heading">アプリ1</div>
+                <div class="panel-body">
+                  <div class="toriaezu"></div>
+                  <p>ダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキスト</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-6">
+              <div class="panel panel-default">
+                <div class="panel-heading">アプリ2</div>
+                <div class="panel-body">
+                  <div class="toriaezu"></div>
+                  <p>ダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキスト</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="row">
+            <div class="col-md-6 col-lg-6">
+              <div class="panel panel-info">
+                <div class="panel-heading">アプリ3</div>
+                <div class="panel-body">
+                  <div class="toriaezu"></div>
+                  <p>ダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキスト</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-6">
+              <div class="panel panel-info">
+                <div class="panel-heading">アプリ4</div>
+                <div class="panel-body">
+                  <div class="toriaezu"></div>
+                  <p>ダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキスト</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        </div><!--／works-->
+      </div><!--／container-inner-->
+    </div><!--／container-->
+    
+    <footer>
+      <p>©2015 Kei Tamiya</p>
+    </footer>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   </body>
 </html>
